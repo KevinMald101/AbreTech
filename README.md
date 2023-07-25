@@ -1,2 +1,2 @@
 # AbreTech
-> Testing out chatGPT
+> Testing out a fake database with scholarships
