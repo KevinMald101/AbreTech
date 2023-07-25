@@ -3,7 +3,7 @@ import csv
 con = sqlite3.connect("SQlite/dataBase/opportunities.db")
 cur = con.cursor() # Cursor used
 cur.execute("DROP TABLE scholarships")
-cur.execute("CREATE TABLE scholarships (name text, reward text, start text, deadline text, major text, gpa text, location text, essay text)")
+cur.execute("CREATE TABLE scholarships (name text, reward int, start text, deadline text, major text, gpa real, location text, essay text)")
 
 # Sql code with placement variables at the end
 sql = "INSERT INTO `scholarships` (`name`, `reward`, `start`, `deadline`, `major`, `gpa`, `location`, `essay`) VALUES (?,?,?,?,?,?,?,?)"
@@ -14,7 +14,7 @@ try:
     reader = csv.DictReader(scholarships)
     # For each row in the csv file
     for row in reader:
-      #print(row)
+      # print(row)
       # I know what's going on but don't know how, Justin the goat!
       val = (row['name'], row['reward'], row['start'], row['deadline'], row['major'], row['gpa'], row['location'], row['essay'])
       # The values of val will be used as variables for the sql statement

@@ -1,16 +1,43 @@
 name,reward,start,deadline,major,gpa,location,essay
 lotto scholarship, 1500, july, august, none, 3.4, massachusetts, no
-sharko scholarship, 250, january, february, marine biology, none, ohio, yes
+sharko scholarship, 250, january, february, marine biology, 0, ohio, yes
 single buck scholarship, 1, january, december, none, 2.0, georgia, no
-jojos scholarship, 5000, may, june, history, 4.0, kansas, yes
+jojos scholarship, 5000, may, june, 'history', 4.0, kansas, yes
 mit scholarship, 7000, june, july, computer science, 5.0, massachusetts, yes
 umass lowell scholarship, 2000, june, august, mathematics, 3.3, massachusetts, yes
-waterGods scholarship, 6900, november, december, criminal justice, none, georgia, yes
+waterGods scholarship, 6900, november, december, criminal justice, 0, georgia, yes
 juans scholarship, 1000, june, july, tv media, 2.9, alabama, no
-rays cheese and cheers scholarship, 500, may, april, culinary, none, massachusetts, no
+rays cheese and cheers scholarship, 500, may, april, culinary, 0, massachusetts, no
 battle cats scholarship, 3000, june, october, criminal justice, 4.0, florida, yes
 most sane florida man scholarship, 4000, january, may, psychology, 2.0, florida, no
-bread painters scholarship, 100, january, december, art, none, new york, no
-angry new yorkers scholarship, 650, july, september, marketing, none, new york, no
+bread painters scholarship, 100, january, december, art, 0, new york, no
+angry new yorkers scholarship, 650, july, september, marketing, 0, new york, no
 bad apple scholarship, 1000, november, december, music, 3.1, maine, yes
-discord mods scholarship, 50, august, november, computer science, none, kansas, yes
+discord mods scholarship, 50, august, november, computer science, 0, kansas, yes
+gaymers scholarship, 700, february, july, computer science, 3.5, maine, yes
+rock eaters scholarship, 200, march, november, history, 2.5, vermont, no
+giga chad scholarship, 10000, may, august, tv media, 5.0, ohio, yes
+in need scholarship, 100, june, november, none, 0, texas, no
+gordon ramsay scholarship, 3000, november, december, culinary, 4.0, california, yes
+chair hospital scholarship, 5000, april, october, health tech, 4.5, kansas, yes
+anti essay scholarship, 400, may, december, education, 2.2, maine, no
+jellyfish scholarship, 150, july, august, electrical, 3.7, vermont, no
+shoplifters paradise scholarship, 900, march, may, business, 2.8, mississippi, yes
+only human scholarship, 3000, february, july, chemistry, 3.0, massachusetts, yes
+lazy programmers scholarship, 1000, may, april, computer science, 3.0, vermont, no
+time traval scholarship, 1300, june, december, history, 4.0, maine, yes
+depressed eggs scholarship, 220, july, september, none, 2.3, ohio, no
+woody wood pecker scholarship, 760, march, september, carpentry, 3.5, texas, yes
+the bald beavers scholarship, 4000, june, july, carpentry, 4.1, georgia, yes
+extroverts scholarship, 1100, may, july, marketing, 2.4, georgia, no
+mind and art scholarship, 2400, january, august, art, 3.8, new york, yes
+anything scholarship, 800, may, november, none, 2.6, vermont, no
+justice and order scholarship, 8000, july, august, criminal justice, 4.4, mississippi, yes
+wandering scholarship, 280, june, august, none, 0, mississippi, no
+minecrafters scholarship, 1700, october, november, engineering, 0, maine, yes
+highschool drop outs scholarship, 500, may, november, none, 2.3, texas, no
+the blind designers scholarship, 1200, april, may, graphic design, 3.0, ohio, no
+camera man association scholarship, 4500, april, october, tv media, 3.9, kansas, no
+cloud eaters scholarship, 1600, may, august, mathematics, 0, florida, yes
+singing lemons scholarship, 2000, october, december, music, 2.3, california, yes
+the castrated onions scholarship, 300, september, november, health tech, 3.6, california, no
