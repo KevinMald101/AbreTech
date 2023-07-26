@@ -24,21 +24,16 @@ def questions():
   education, marine biology, Web Development\n""").lower()
   '''
   gpa = float(input("Type your gpa or type '0' if you want scholarships with no gpa requirements\n"))
-  #essay = input("Want scholarships with an essay requirement (y/n): ").lower()
+  essay = input("Want scholarships with an essay requirement (yes/no): ").lower()
   #if major == 'none':
   #  major = 'NULL'
-  '''
-  if essay == 'y':
-    essay = 'yes'
-  elif essay == 'n':
-    essay = 'no'
-  '''
   return reward, gpa
 
 def querying():
   con = sqlite3.connect("SQlite/dataBase/opportunities.db")
   cur = con.cursor() # Cursor used
   reward, gpa = questions()
+  print(reward, gpa)
   try:
     #cur.execute("SELECT * FROM scholarships WHERE reward >= ? AND major = ? AND gpa >= ? AND essay = ?", (reward, major, gpa, essay))
     cur.execute('SELECT * FROM scholarships WHERE reward >= ? AND gpa <= ?', (reward, gpa))
